@@ -1,0 +1,9 @@
+{
+  "repo_name": "aidac_repo_h_ja4r5i",
+  "commit": "79b0fcbf0296af8b021bcb812ff768d3e90aeb5d",
+  "build_success": false,
+  "smoke_success": false,
+  "build_time": 0.005076169967651367,
+  "env_yaml": "name: aidac_env\nchannels:\n  - conda-forge\ndependencies:\n  - python=3.10\n  - pip\n",
+  "log_tail": "[Errno 2] No such file or directory: 'micromamba'"
+}

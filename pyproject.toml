@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aidac-scan"
+version = "0.1.0"
+description = "AI-assisted auditing CLI"
+authors = [{name="Codex", email="codex@example.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "rich",
+    "GitPython",
+    "pyyaml",
+    "jinja2",
+]
+
+[project.scripts]
+aidac-scan = "aidac_scan.cli:main"
+
+[tool.setuptools.packages.find]
+exclude = ["example_reports"]
